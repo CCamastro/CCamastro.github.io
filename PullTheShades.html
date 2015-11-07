@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="shades.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<title>Pull the Shades!</title>
+</head>
+<script type="text/javascript">
+$(window).resize(function() {
+	if ( $(window).width() < 1050) {     
+  	document.getElementById('pText').innerHTML = "But don't cover up the white space.";
+	document.getElementById('List').style.display = 'none';
+	}
+	else if ( $(window).width() > 1060) {
+		document.getElementById('pText').innerHTML = "A little more, please.";
+		document.getElementById('List').style.display = 'none';
+	}
+	else {
+  	document.getElementById('pText').innerHTML = "Perfect!";
+  	document.getElementById('List').style.display = 'block';
+	}
+});
+</script>
+<body>
+<div id="Container">
+<p id="pText">Blech! I hate that ugly yellow color! You have to hide it if you want the next clue.</p>
+<div id="List">
+<p>You'll need a special phrase to move on. You can find it somewhere in my grocery list. Just open each item in a new tab . . . </p>
+<p>Grocery List</p>
+<ul>
+<li><a href="links/Lettuce.html">Item 1</a></li>
+<li><a href="links/Eggs.html">Item 2</a></li>
+<li><a href="links/Tomato.html">Item 3</a></li>
+<li><a href="links/Mayonnaise.html">Item 4</a></li>
+<li><a href="links/English Muffins.html">Item 5</a></li>
+<li><a href="links/Ice Cream.html">Item 6</a></li>
+<li><a href="links/Plums.html">Item 7</a></li>
+<li><a href="links/Lentils.html">Item 8</a></li>
+<li><a href="links/Endive.html">Item 9</a></li>
+<li><a href="links/Apple Juice.html">Item 10</a></li>
+<li><a href="links/Salad Dressing.html">Item 11</a></li>
+<li><a href="links/Eggo Waffles.html">Item 12</a></li>
+<li><a href="Door.html">Item 13</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>

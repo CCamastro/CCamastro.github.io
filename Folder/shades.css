@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #FF6;
+}
+
+#Container{
+	display: block;
+	width: 1055px;
+	height: 990px;
+	float: left;
+	background-color: #ffffff;
+}
+
+#List{
+	display: none;
+}

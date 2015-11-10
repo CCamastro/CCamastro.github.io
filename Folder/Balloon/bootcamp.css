@@ -1,0 +1,10 @@
+iframe{
+	width: 300px;
+	height: 500px;
+	overflow: hidden;
+}
+
+img{
+	position: absolute;
+	margin-left: 285px;
+}

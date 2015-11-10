@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-image: url(air-balloon-sky.png);
+background-repeat: no-repeat; 
+}
+
+#sky{
+	height: 10000px;
+}
+
+#sky img{
+	width: 200px;
+	position: fixed;
+	left: 40px;
+	top: 50px;
+}

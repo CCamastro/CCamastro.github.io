@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<title>VERY</title>
+</head>
+<script type="text/javascript">
+function checkForm(){
+if (document.getElementById("First").value == 3 && 
+    document.getElementById("Second").value == 2 && 
+    document.getElementById("Third").value == 1 && 
+    document.getElementById("Fourth").value == 4) {
+
+    window.open("http://CCamastro.github.io/Folder/French.html");
+ }
+ else {       
+    alert('Sorry, wrong order');
+ }
+}
+</script>
+<body>
+<img src="http://www.eric-carle.com/ecshoulphoto.jpg"/>
+<p>Find my VERY special friends and put them in order from oldest to youngest.</p>
+<form id="giftForm" onsubmit="checkForm();">
+<ol>
+<li>
+<select id="First">
+<option value=1>Busy Spider</option>
+<option value=2>Grouchy Ladybug</option>
+<option value=3>Hungry Caterpillar</option>
+<option value=4>Quiet Cricket</option>
+</select>
+</li>
+<li>
+<select id="Second">
+<option value=1>Busy Spider</option>
+<option value=2>Grouchy Ladybug</option>
+<option value=3>Hungry Caterpillar</option>
+<option value=4>Quiet Cricket</option>
+</select>
+</li>
+<li>
+<select id="Third">
+<option value=1>Busy Spider</option>
+<option value=2>Grouchy Ladybug</option>
+<option value=3>Hungry Caterpillar</option>
+<option value=4>Quiet Cricket</option>
+</select>
+</li>
+<li>
+<select id="Fourth">
+<option value=1>Busy Spider</option>
+<option value=2>Grouchy Ladybug</option>
+<option value=3>Hungry Caterpillar</option>
+<option value=4>Quiet Cricket</option>
+</select>
+</li>
+</ol>
+<p><input type="submit"></p>
+</form>
+</body>
+</html>

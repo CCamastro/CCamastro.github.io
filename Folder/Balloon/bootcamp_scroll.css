@@ -16,3 +16,10 @@ background-repeat: no-repeat;
 	left: 40px;
 	top: 50px;
 }
+
+#carle img{
+	width: 200px;
+	position: fixed;
+	left: 40px;
+	top: 10100px;
+}
